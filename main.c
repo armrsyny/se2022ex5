@@ -4,7 +4,7 @@ int main(void){
     printf("Hallo Would.");
     int num=0;
     for(int i=0;i<10;i++){
-        num=num*i;
+        num=num+i*i;
     }
     printf("   %d",num);
     return 0;
